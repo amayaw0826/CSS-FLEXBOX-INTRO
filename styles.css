@@ -4,15 +4,24 @@ body{
     box-sizing: border-box;
     /*Feel free to change the values of the following
     properties to your liking!*/
-    background-color:antiquewhite;
+    background-color:rgba(194, 227, 255, 0.472);
     font-family: cursive, sans-serif;
-    color: purple;
+    color: rgb(1, 0, 1);
 }
 
 /*References the div with the class attribute of "container"*/
 .container{
     /*Declares that the element and its children(the elements inside it) can be styled with flexbox*/
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10%;
 }
 
 
